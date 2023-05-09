@@ -12,7 +12,11 @@
             return false;
         }
 
-        $result = mysqli_query($conexao, "INSERT INTO users (id, username, password, nome, email) VALUES (null, '$username', '$password', '$nome', '$email')");
+        // Criptografar a senha usando password_hash()
+        $password_hash = password_hash($password, PASSWORD_DEFAULT);
+
+
+        $result = mysqli_query($conexao, "INSERT INTO users (id, username, password, nome, email) VALUES (null, '$username', '$password_hash', '$nome', '$email')");
 
         if ($result) {
             echo "Dados inseridos com sucesso.";
