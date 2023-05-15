@@ -1,5 +1,8 @@
 <?php
-    include_once('config.php');
+
+    include_once('../Control/config.php');
+
+
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $username = isset($_POST['username']) ? $_POST['username'] : '';
