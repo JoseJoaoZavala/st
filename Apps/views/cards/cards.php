@@ -1,7 +1,7 @@
 
-<div class="body flex-grow-1 px-3" style="max-width: 50rem; ">
-        <div class="container-lg">
-          <div class="row">
+<div class="body flex-grow-1 px-3 w-75" >
+        <div class="container-lg ">
+          <div class="row ">
             <div class="col-sm-6 col-lg-3" >
               <div class="card mb-4 text-white bg-primary" >
                 <div class="card-body pb-0 d-flex justify-content-between align-items-start">
