@@ -3,7 +3,7 @@
             <div class="col-sm-6 col-lg-3">
               <div class="card mb-4" style="--cui-card-cap-bg: #3b5998">
                 <div class="card-header position-relative d-flex justify-content-center align-items-center">
-                  <svg class="icon icon-3xl text-white my-4">
+                  <svg class="icon icon-2xl text-white my-2">
                     <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-facebook-f"></use>
                   </svg>
                   <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
@@ -27,7 +27,7 @@
             <div class="col-sm-6 col-lg-3">
               <div class="card mb-4" style="--cui-card-cap-bg: #00aced">
                 <div class="card-header position-relative d-flex justify-content-center align-items-center">
-                  <svg class="icon icon-3xl text-white my-4">
+                  <svg class="icon icon-2xl text-white my-2">
                     <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-twitter"></use>
                   </svg>
                   <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
@@ -51,7 +51,7 @@
             <div class="col-sm-6 col-lg-3">
               <div class="card mb-4" style="--cui-card-cap-bg: #4875b4">
                 <div class="card-header position-relative d-flex justify-content-center align-items-center">
-                  <svg class="icon icon-3xl text-white my-4">
+                  <svg class="icon icon-2xl text-white my-2">
                     <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-linkedin"></use>
                   </svg>
                   <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
@@ -75,7 +75,7 @@
               <div class="col-sm-6 col-lg-3">
               <div class="card mb-4" style="--cui-card-cap-bg: #4875b4">
                 <div class="card-header position-relative d-flex justify-content-center align-items-center">
-                  <svg class="icon icon-3xl text-white my-4">
+                  <svg class="icon icon-2xl text-white my-2">
                     <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-linkedin"></use>
                   </svg>
                   <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
@@ -95,6 +95,5 @@
                 </div>
               </div>
             </div>
-            <!-- /.col-->
-          </div>
+          
  

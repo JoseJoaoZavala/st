@@ -2,6 +2,7 @@
     include "aside/aside.php";
     include "header/header.php";
     include "cards/cards.php";
+    include "tabelas/tabelas.php";
     include "footer/footer.php";
     
 ?>
