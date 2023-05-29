@@ -292,3 +292,8 @@ const mainChart = new Chart(document.getElementById('main-chart'), {
       gtag('config', 'UA-118965717-5');
 
 //# sourceMappingURL=main.js.map
+
+
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
+});
