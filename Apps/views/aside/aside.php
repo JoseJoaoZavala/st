@@ -1,5 +1,6 @@
 
 <div class="sidebar sidebar-dark sidebar-fixed" id="sidebar">
+  <img src="../index.php/img/logoST.png" alt="LogoST">
       <div class="sidebar-brand d-none d-md-flex">
         <svg class="sidebar-brand-full" width="118" height="46" alt="CoreUI Logo">
           <use xlink:href="assets/brand/coreui.svg#full"></use>
@@ -10,12 +11,18 @@
       </div>
       <ul class="sidebar-nav" data-coreui="navigation" data-simplebar="">
         <li class="nav-item"><a class="nav-link" href="#">
-            <svg class="nav-icon">
+            
               <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
             </svg>Sociedade & Territorio<span class="badge badge-sm bg-info ms-auto"></span></a></li>
-        
-        <li class="nav-title">Equipamentos</li>
-        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+
+
+    <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+            
+              <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-cursor"></use>
+            </svg>Equipamentos</a>
+          <ul class="nav-group-items">
+
+          <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
             <svg class="nav-icon">
               <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-puzzle"></use>
             </svg> Computadores</a>
@@ -52,17 +59,7 @@
             
           </ul>
         </li>
-        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
-            <svg class="nav-icon">
-              <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
-            </svg>Maquinas Fotograficas</a>
-          <ul class="nav-group-items">
-            <li class="nav-item"><a class="nav-link" href="notifications/alerts.html"><span class="nav-icon"></span> Alerts</a></li>
-            <li class="nav-item"><a class="nav-link" href="notifications/badge.html"><span class="nav-icon"></span> Badge</a></li>
-            <li class="nav-item"><a class="nav-link" href="notifications/modals.html"><span class="nav-icon"></span> Modals</a></li>
-            <li class="nav-item"><a class="nav-link" href="notifications/toasts.html"><span class="nav-icon"></span> Toasts</a></li>
-          </ul>
-        </li>
+       
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
           <svg class="nav-icon">
             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
@@ -85,7 +82,24 @@
         <li class="nav-item"><a class="nav-link" href="notifications/toasts.html"><span class="nav-icon"></span> Toasts</a></li>
       </ul>
     </li>
+
+     <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+          <svg class="nav-icon">
+            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
+          </svg>Maquina Fotografica</a>
+        <ul class="nav-group-items">
+          <li class="nav-item"><a class="nav-link" href="notifications/alerts.html"><span class="nav-icon"></span> Alerts</a></li>
+          <li class="nav-item"><a class="nav-link" href="notifications/badge.html"><span class="nav-icon"></span> Badge</a></li>
+          <li class="nav-item"><a class="nav-link" href="notifications/modals.html"><span class="nav-icon"></span> Modals</a></li>
+          <li class="nav-item"><a class="nav-link" href="notifications/toasts.html"><span class="nav-icon"></span> Toasts</a></li>
+        </ul>
+      </li>
+            
+        </ul>
+        </li>
         
       <button class="sidebar-toggler" type="button" data-coreui-toggle="unfoldable"></button>
     </div>
     <div class="wrapper d-flex flex-column min-vh-100 bg-light">
+
+    
