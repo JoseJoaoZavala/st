@@ -1,4 +1,7 @@
 <?php
+    include_once 'conexao/insert.php';
+    include 'conexao/conn.php';
+    $result = mysqli_query($conn,"SELECT * FROM dispositivos");
     include "aside/aside.php";
     include "header/header.php";
     include "cards/cards.php";
