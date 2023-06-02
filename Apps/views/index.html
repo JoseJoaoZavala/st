@@ -37,17 +37,55 @@
     <!-- Vendors styles-->
     <link rel="stylesheet" href="../../assets/vendors/simplebar/css/simplebar.css">
     <link rel="stylesheet" href="../../assets/css/vendors/simplebar.css">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    
     <!-- Main styles for this application-->
     <link href="../../assets/css/style.css" rel="stylesheet">
     <!-- We use those styles to show code examples, you should remove them in your application.-->
     <link rel="stylesheet" href="../../assets/https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css">
     <link href="../../assets/css/examples.css" rel="stylesheet">
-
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    
     <!-- Global site tag (gtag.js) - Google Analytics-->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
     <script>
+      
+
       window.dataLayer = window.dataLayer || [];
+
+      
+	$(document).ready(function()
+    {
+      // Activate tooltip
+      $('[data-toggle="tooltip"]').tooltip();
+      
+      // Select/Deselect checkboxes
+      var checkbox = $('table tbody input[type="checkbox"]');
+      $("#selectAll").click(function()
+      {
+        if(this.checked){
+          checkbox.each(function()
+          {
+            this.checked = true;                        
+          });
+        }
+        else
+        {
+          checkbox.each(function()
+          {
+            this.checked = false;                        
+          });
+        } 
+      });
+      checkbox.click(function()
+      {
+        if(!this.checked)
+        {
+          $("#selectAll").prop("checked", false);
+        }
+      });
+    });
+
 
       function gtag() {
         dataLayer.push(arguments);
