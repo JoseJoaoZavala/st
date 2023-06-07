@@ -1,7 +1,7 @@
 <?php
     include_once 'connect_db.php';
     $success  = "";
-    if(isset($_POST['add']))
+    if(isset($_POST['marca']))
     {	 
         $username  = $_POST['username'];
         $useremail = $_POST['useremail'];

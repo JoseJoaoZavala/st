@@ -28,3 +28,4 @@ class EquipamentosController
         $equipamento->modelo = $dados['modelo'];
         $equipamento->numero_serie = $dados['numero_serie'];
         $equipamento->data
+?>
